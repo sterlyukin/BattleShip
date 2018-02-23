@@ -1,0 +1,150 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="SeaBattle.Deck">
+    <Position X="1.5" Y="1.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAgAAAAAA=</HashCode>
+      <FileName>Model\Deck.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SeaBattle.Ship">
+    <Position X="10.25" Y="1" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAQAAoAAEgAAAAAAIBAAAAAAAAIBCAAIAQAA=</HashCode>
+      <FileName>Model\Ship.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SeaBattle.GameView">
+    <Position X="6.5" Y="17.5" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Methods" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>IAECgEgAQgAAAAAAAAgBACEgiQAAhAAECAgAAAAAAwA=</HashCode>
+      <FileName>View\GameView.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SeaBattle.MenuView" Collapsed="true">
+    <Position X="3.75" Y="6.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAAAAAAAAAQAAAQIAAAAAAAAAAAAAAAAAAI=</HashCode>
+      <FileName>View\MenuView.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SeaBattle.RecordsView" Collapsed="true">
+    <Position X="5.5" Y="6.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAI=</HashCode>
+      <FileName>View\RecordsView.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SeaBattle.MenuFormView">
+    <Position X="3.75" Y="7" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQACAAAAAACAFAAAAAQAAEiIJAACAAEAAAAgAgAAAAI=</HashCode>
+      <FileName>View\MenuFormView.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SeaBattle.RecordsFormView">
+    <Position X="5.5" Y="7" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAEAgAAAAAABAAIAAAAgAAAAAAAAACAAAAAABAAAAI=</HashCode>
+      <FileName>View\RecordsFormView.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SeaBattle.MenuFormController">
+    <Position X="7.25" Y="7" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAEAAIAAAAEEAgAAAAAAACAAAAQgAAAAAAAAACAAAAA=</HashCode>
+      <FileName>Controller\MenuFormController.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="SeaBattle.GameFormController">
+    <Position X="9" Y="7" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>AAACoAgQBDFgBAACAsIACQRoEkAAAEQQIAgQCACAEGA=</HashCode>
+      <FileName>Controller\GameFormController.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="SeaBattle.ComputerFormController">
+    <Position X="10.75" Y="7" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAEABAAAAgAACABAAAAAAAAAEAAAAAAAAAA=</HashCode>
+      <FileName>Controller\ComputerFormController.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="SeaBattle.Program">
+    <Position X="2.75" Y="17.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAA=</HashCode>
+      <FileName>Program.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SeaBattle.GameForm">
+    <Position X="4.5" Y="17.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACAAAAAAAACAAAACAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>View\GameForm.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SeaBattle.GameFormView" Collapsed="true">
+    <Position X="6.5" Y="21.25" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+      <Compartment Name="Methods" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>IAGSgEgARgQUBCERAAkBJOUw6QIAhAiECCgCAANQAyI=</HashCode>
+      <FileName>View\GameFormView.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SeaBattle.Model">
+    <Position X="2" Y="20.5" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>BSAUAgAIKEBAAAQAECBAABCiEIEBBKAQQgAAAAQAACg=</HashCode>
+      <FileName>Model\Model.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Interface Name="SeaBattle.IComputerController" Collapsed="true">
+    <Position X="10.75" Y="6.25" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAABAAAAAAAAABAAAAAAAAAEAAAAAAAAAA=</HashCode>
+      <FileName>Controller\IComputerController.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="SeaBattle.IGameController" Collapsed="true">
+    <Position X="9" Y="6.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAgAAAACAABAAAAgAAAABAAAAAAAAQAAAACACAEAA=</HashCode>
+      <FileName>Controller\IGameController.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="SeaBattle.IMenuController" Collapsed="true">
+    <Position X="7.25" Y="6.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAEAAAAAAAAACAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Controller\IMenuController.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Enum Name="SeaBattle.ShipLengthCategories">
+    <Position X="5" Y="1.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAACAAAAAACAEAAAAAIAAAAAAA=</HashCode>
+      <FileName>Model\ShipLengthCategories.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="SeaBattle.ShipOrientation">
+    <Position X="6.75" Y="1.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAABAAAAAAAAAAAIAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Model\ShipOrientation.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Font Name="Segoe UI" Size="8.83" />
+</ClassDiagram>
